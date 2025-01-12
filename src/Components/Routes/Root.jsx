@@ -5,15 +5,13 @@ import Header from './../Header/Header';
 
 const Root = () => {
     return (
-        <div className="flex flex-col min-h-screen">
-            {/* Header */}
-            <Header />
-
-            {/* Main content area */}
-            <main className="flex-grow">
-                <Outlet />
-            </main>
-
+        <div>
+            <div className=' max-w-7xl mx-auto flex flex-col  '>
+                <Header />
+                <main className=' flex-grow'>
+                    <Outlet />
+                </main>
+            </div>
             {/* Footer */}
             <Footer />
         </div>
@@ -21,3 +19,4 @@ const Root = () => {
 };
 
 export default Root;
+

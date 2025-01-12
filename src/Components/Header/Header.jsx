@@ -46,7 +46,10 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Start Applying</a>
+                {/* <a className="btn">Start Applying</a> */}
+                <a href=""><button className="btn btn-primary text-white bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
+                    Start Appling
+                </button></a>
             </div>
         </div>
     );

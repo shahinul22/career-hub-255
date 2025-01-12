@@ -2,7 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer bg-gray-900 text-gray-200 p-10">
+        <footer className=" mt-20 bg-gray-900 text-gray-200 p-10">
+            <div className="footer max-w-7xl mx-auto">
             <aside>
                 <svg
                     width="50"
@@ -41,6 +42,7 @@ const Footer = () => {
                 <a className="link link-hover text-gray-400">Privacy policy</a>
                 <a className="link link-hover text-gray-400">Cookie policy</a>
             </nav>
+            </div>
         </footer>
     );
 };
